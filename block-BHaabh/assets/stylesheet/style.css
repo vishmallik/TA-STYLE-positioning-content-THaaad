@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles*/
+header{
+    background-color: rgb(57, 114, 201);
+    color: white;
+    padding-bottom: 180px;
+}
+.topheader{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+   
+}
+nav{
+    display: inline-block;
+    margin-left: 80%;
+}
+.navlinks{
+    text-decoration: none;
+    font-size: 20px;
+  margin-left: 20px;
+      color: white;
+}
+.clearfix::after,.clearfix::before{
+    content:"";
+    display: table;
+}
+.clearfix ::after{
+    clear: both;
+}
+h1{
+    font-size: 90px;
+    text-align: center;
+
+}
+.top{
+    padding: 5% 0;
+}
+.afterh1
+{
+    margin: 40px;
+    font-size: 25px;
+    text-align:center;
+}
+.section1{
+    margin: 0 auto;
+    font-size: 0;
+}
+.content{
+    display: inline-block;
+    margin: 3% 6% 3% 0;
+    width: 27.33%;
+    line-height: 1.5;
+}
+h3{
+    font-size: 30px;
+    color: rgb(57, 114, 201);
+    margin-bottom: 25px;
+}
+.subtext{
+    color: grey;
+    font-size: 20px;
+}
+.more{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+button{
+    background-color: rgb(57, 114, 201);
+    padding: 12px 20px;
+    border: 0px;
+    margin: 25px 0;
+}
+.section2{
+    background-color: rgb(57, 114, 201);
+    color: white;
+    padding-bottom: 130px;
+}
+.s2header{
+    text-align: center;
+    padding: 80px 20px 20px 20px;
+}
+h2{
+    font-size: 70px;
+}
+.box{
+    display: inline-block;
+    border: 0.1px solid lightgray;
+    padding: 50px 50px;
+    margin: 0% 7% 0 0;
+}
+.portrait{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.s2text{
+    font-size: 20px;
+    text-align: center;
+}
+.pagewidth{
+    width: 80%;
+    margin: 0 auto;
+}
+.section3{
+    color: rgb(57, 114, 201);
+    text-align: center;
+}
+.subtext2{
+    margin: 2% 0;
+}
+.s3container{
+    margin: 4% 10% 4% 0;
+    width: 39.2%;
+    font-size: 0;
+    text-align: left;
+    display: inline-block;
+
+}
+.s3head{
+    margin: 5% 0;
+}
+.copyright{
+    float: left;
+    color: grey;
+}
+.logolinks{
+    float: right;
+}
+footer{
+    margin: 2.5%;
+
+}
+.logo{
+    padding: 5px;
+
+}
+.logoimg{
+    width: 15px;
+    height: 15px ;
+}
